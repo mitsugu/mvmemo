@@ -1,5 +1,8 @@
 # mv subcommand for memo wrote by mattn
 
+## Dependencies
+[mattn/memo: 📓 Memo Life For You](https://github.com/mattn/memo)
+
 ## Install
 1. git clone https://github.com/mitsugu/mvmemo.git
 2. cd mvmemo
