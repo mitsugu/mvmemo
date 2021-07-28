@@ -1,0 +1,8 @@
+#! /bin/sh
+if [ $# = 2 ]; then
+   DIR=`sed -e '/memodir/q' $HOME/.config/memo/config.toml | sed -e 's/memodir = "//g' -e 's/"$//g'`
+  mv "$DIR/$1" "$DIR/$2"
+else
+  echo "Usage : memo mv sourceFileName DestnationFileName"
+fi
+
